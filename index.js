@@ -98,6 +98,6 @@ app.post('/context', (req, res) => {
 })
 
 
-app.listen(PORT, (err) => {
+app.listen(process.env.PORT || PORT, (err) => {
     if (!err) console.log("Started...")
 })
