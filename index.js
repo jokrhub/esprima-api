@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require('express')
 var esprima = require('esprima')
 var program = 'const answer = 42'
