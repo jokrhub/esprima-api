@@ -1,0 +1,15 @@
+{
+  "name": "jsparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ls"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esprima": "^4.0.1",
+    "express": "^4.18.1"
+  }
+}
